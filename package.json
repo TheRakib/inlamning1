@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "start": "node-sass sass/main.scss style.css -w"
+    "start": "node-sass sass/main.scss main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawndevp/gittest.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-sass": "^4.14.1"
-  }
+  "bugs": {
+    "url": "https://github.com/shawndevp/gittest/issues"
+  },
+  "homepage": "https://github.com/shawndevp/gittest#readme"
 }
