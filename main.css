@@ -14,7 +14,7 @@ body {
 
 .voodoo-text {
     text-align: center;
-    margin-top: 5%;
+    padding-top: 5%;
     
 }
 
@@ -22,11 +22,8 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 70vw;
-}
-
-.header-container .rad-1 {
-
+    border: 2px solid blue;
+    word-wrap: break-word;
 }
 
 .head-bild {
@@ -37,39 +34,61 @@ body {
 .rad-1{
     margin-left: 5%;
     align-self: center;
-    z-index: 2;
+    z-index: 1;
     text-align: right;
     margin-top: 20%;
     margin-right: 15%;
+    margin-top: 42%;
+    font-size: 1.5vw;
 }
 
 .rad-1 h1 {
     text-align: right;
 }
 
-article>h1 {
+.article>h1 {
 
     margin-top: 45%;
 }
 
-.mobil-bild {
-    width: auto;
+
+.row2-flexbox {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid red;
 }
 
-.mobil-bild2 {
-    width: auto;
+.row2-text {
+    text-align: left;
+    width: 50%;
+    padding-top: 5%;
+    font-size: 1.5vw;
 }
 
 .rad-2 {
-    border: 2px solid gray;
-    border-radius: 10px 10px;
+    border: 2px solid red;
     display: flex;
-    align-items: center;
+    overflow: auto;
+    flex-direction: row;
+    justify-content: flex-end;
 
 }
 
-.rad2-p, h1 {
+.rad-2ph1 {
     text-align: left;
+    font-size: 1.5vw;
+    padding-top: 5%;
+    padding-left: 25%;
+}
+
+.mobil-bild {
+top: 0;
+left: 0;
+width: auto;
+position: relative;
+background-repeat: no-repeat;
+background-size: 100% auto;
+float: left;
 }
 
 .rad-3video {
@@ -79,29 +98,30 @@ article>h1 {
 
 .rad-4 {
     border: 2px solid red;
-    display: flex;
+    display: block;
+    overflow: auto;
 
 }
 
 .rad-4-p {
-    padding-right: 400px;
-    padding-top: 100px;
     text-align: right;
     font-size: 1.5vw;
+    padding-top: 10%;
+    padding-right: 25%;
+
 }
 
 .mobil-bild2 {
 top: 0;
 left: 0;
-width: 100%;
-height: 100%;
+width: auto;
 position: relative;
 background-repeat: no-repeat;
 background-size: 100% auto;
+float: left;
 }
 
 .rad-5 {
-    background-color: blanchedalmond;
 }
 
 .rad-5-p {
@@ -151,11 +171,30 @@ background-size: 100% auto;
 
 
 footer {
-    height: 400px;
+    height: 350px;
     background-color: #2A2E34;
 
 }
 
+
+.flex-footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 5%;
+}
+
+.flex-footer > div {
+    font-size: 1.5vw;
+}
+
+.footer-p2 {
+    padding-top: 5%;
+    text-align: right;
+}
+
+
+//**
 .footer-paragraf, .footer-paragraf2 {
     color:white;
     text-align: left;
@@ -164,6 +203,7 @@ footer {
     margin-left: auto;
     font-size: 1.5vw;
     padding-top: 2.5%;
+    border: 3px solid red;
 }
 
 .footer-paragraf2 {
