@@ -1,0 +1,38 @@
+.voodoo-text {
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid blue;
+    word-wrap: break-word;
+}
+
+.head-bild {
+    position: absolute;
+    width: 100%;
+}
+
+.rad-1{
+    margin-left: 5%;
+    align-self: center;
+    z-index: 1;
+    text-align: right;
+    margin-top: 20%;
+    margin-right: 15%;
+    margin-top: 42%;
+    font-size: 1.5vw;
+}
+
+.rad-1 h1 {
+    text-align: right;
+}
+
+.article>h1 {
+
+    margin-top: 45%;
+}

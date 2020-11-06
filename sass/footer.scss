@@ -1,0 +1,22 @@
+footer {
+    height: 350px;
+    background-color: #2A2E34;
+
+}
+
+
+.flex-footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 5%;
+}
+
+.flex-footer > div {
+    font-size: 1.5vw;
+}
+
+.footer-p2 {
+    padding-top: 5%;
+    text-align: right;
+}

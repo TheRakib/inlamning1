@@ -1,0 +1,21 @@
+.row2-flexbox {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid red;
+}
+
+.row2-text {
+    text-align: left;
+    width: 50%;
+    padding-top: 1.25%;
+    font-size: 1.5vw;
+}
+
+.rad-2 {
+    border: 2px solid red;
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}

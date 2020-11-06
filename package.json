@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shawndevp/gittest.git"
+    "url": "git+https://github.com/shawndevp/inlamning1.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shawndevp/gittest/issues"
+    "url": "https://github.com/shawndevp/inlamning1/issues"
   },
-  "homepage": "https://github.com/shawndevp/gittest#readme"
+  "homepage": "https://github.com/shawndevp/inlamning1#readme"
 }
