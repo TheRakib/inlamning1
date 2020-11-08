@@ -3,12 +3,11 @@
     padding-top: 5%;
     
 }
-
+/* word wrap så texten inte åker utanför container */
 .header-container {
     display: flex;
     flex-direction: column;
     position: relative;
-    border: 2px solid blue;
     word-wrap: break-word;
 }
 
